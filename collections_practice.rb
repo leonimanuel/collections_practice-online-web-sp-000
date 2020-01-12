@@ -42,7 +42,7 @@ def add_s(array)
       i += 1
       # puts i
     else
-      array[i] = "#{array[i]}s"
+      array[i] << "s"
       i += 1
     end
   end
